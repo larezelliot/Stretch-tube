@@ -2,15 +2,25 @@
 	<link rel="stylesheet" href="IVEStyle.css">
 	<script src="myScript.js"></script>
 </head>
-<body style="margin:0px;padding:0px;overflow:hidden">
-   <div class="video-container"> 
+<body>
+   <div align="center"> 
+   	<h1>
+   		Welcome, to IVE's YouTube Video Player.
+   	</h1>
+   	<p>
+   		Copy and paste a YouTube video URL and press enter
+   	</p>
 		<input id="searchInput" type="text" value="">
-
 		</input>
-		<button onclick="function_name(this)">
+		<button onclick="search_Id(this)">
 			Search
-		</button>
-		<iframe id="videoContainer"
-			src="">
-	   </div>
+		</button><br>
+
+
+		<input type="checkbox" id="showControls" name="controls">
+		<label for="showControls"> Show Video Controls</label><br>
+		
+   	<h2>
+   		Use F11 to Fullscreen!
+   	</h2>
 </body>
